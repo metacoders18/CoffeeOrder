@@ -27,7 +27,17 @@ public class MainActivity extends AppCompatActivity {
     public void decqnt(View view) {
 
         quantity = quantity-1;
-        display(quantity);
+
+        if(quantity<0){
+
+            quantity = 0;
+            display(quantity);
+        }
+
+        else{
+
+            display(quantity);
+        }
     }
 
 
