@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         displayPrice(quantity*5);
 
+
     }
 
 
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView priceView=(TextView) findViewById(R.id.price);
         priceView.setText(NumberFormat.getCurrencyInstance().format(number));
+
     }
 
 
